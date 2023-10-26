@@ -1,0 +1,140 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 80%;
+    height: 900px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    border: 10px solid #373737;
+}
+.header-Contacts {
+    color: #373737;
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.form-row1 {
+    height: 80px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    background-color: aliceblue;
+}
+.form_Name {
+    padding-top: 5px;
+    display: grid;
+    padding-left: 20px;
+
+}
+#full-name {
+    height: 30px;
+    width: 95%;
+    border: none;
+    outline: none;
+
+}
+    
+
+.form-row2 {
+    height: 80px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    justify-content: space-between;
+    display: flex;
+    background-color: aquamarine;
+}
+.form_Email, .form_Phone {
+     padding-top: 5px;
+     width: 46%;
+     display: block;
+     border-radius: 10px;
+     background-color: aqua;
+     display: grid;
+     padding-left: 20px;
+
+}
+#phone, #email {
+    height: 30px;
+    width: 95%;
+    border: none;
+    outline: none;
+}
+
+.form-row3 {
+    height: 80px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center; /* Canh giữa dọc */
+}
+
+.form_Choose {
+    display: grid;
+    flex: 1; /* Để mở rộng nó để lấp đầy không gian còn lại */
+    padding-left: 20px;
+    align-items: center; /* Canh giữa dọc */
+}
+
+.js-select2 {
+    height: 30px;
+    border: none;
+    outline: none;
+    width: 95%; /* Đặt chiều rộng là 100% để lấp đầy không gian của cha */
+}
+.form-row4 {
+    width: 80%;
+    background-color: aqua;
+    margin: 0 auto;
+    height:150px;
+    border-radius: 10px;
+    text-align: left;
+}
+.form-Messager {
+    display: grid;
+    padding-top: 10px;
+    flex : 1;
+    padding-left: 20px;
+    align-items: center;
+}
+#text-Here {
+    width: 95%;
+    border: none;
+    outline: none;
+}
+.form-row5 {
+    height: 40px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+}
+.form-Commit {
+    width: 100%;
+    padding-top: 10px;
+
+}
+#commit-Footer {
+   border: none;
+   background-color: black;
+   color: white;
+}
+.form-row1, .form-row2, .form-row3 {
+    background-color: white;
+}
+.form_Email, .form_Phone, .form-row1, .form-row3, .form-row4 {
+    background-color: white;
+    border: 2px solid #f1f1f1;
+}
