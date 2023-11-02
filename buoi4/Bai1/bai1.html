@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Background Color</title>
+  <style>
+  body {
+      text-align: center;
+      transition: background-color 0.2s;
+    }
+    .color-button {
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+      border: none;
+      color: white;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Chọn một màu để thay đổi nền:</h1>
+  <!-- Danh sách các button màu -->
+  <button class="color-button" style="background-color: red;" onclick="changeBackgroundColor('red')">Đỏ</button>
+  <button class="color-button" style="background-color: green;" onclick="changeBackgroundColor('green')">Xanh Lá Cây</button>
+  <button class="color-button" style="background-color: blue;" onclick="changeBackgroundColor('blue')">Xanh Dương</button>
+  <button class="color-button" style="background-color: yellow;" onclick="changeBackgroundColor('yellow')">Vàng</button>
+
+  <script>
+    // JavaScript để thay đổi màu nền khi button được nhấn
+    function changeBackgroundColor(color) {
+      document.body.style.backgroundColor = color;
+    }
+  </script>
+</body>
+</html>
